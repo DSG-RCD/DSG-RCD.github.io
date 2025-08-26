@@ -46,7 +46,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center; /* ini yang bikin globe+judul+dropdown di tengah persis */
+        justify-content: center;
         text-align: center;
       }
 
@@ -109,6 +109,19 @@
       .dropdown select:hover {
         background: linear-gradient(135deg, #0056b3, #00a0c6);
         box-shadow: 0px 10px 25px rgba(0, 200, 255, 0.8);
+      }
+
+      /* Styling untuk option */
+      .dropdown select option {
+        background-color: #001f3f;
+        color: white;
+        font-family: "Orbitron", sans-serif;
+        padding: 10px;
+      }
+
+      .dropdown select option:hover {
+        background-color: #007bff;
+        color: #fff;
       }
 
       /* Panah dropdown custom */
