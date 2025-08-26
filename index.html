@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peta Interaktif KDTK & Uker</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #0d1117;
+      color: white;
+    }
+
+    /* Background animasi globe */
+    .globe {
+      position: fixed;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/World_map_blank_without_borders.svg/1200px-World_map_blank_without_borders.svg.png") repeat;
+      background-size: 50%;
+      animation: rotate 60s linear infinite;
+      opacity: 0.08;
+      z-index: -1;
+    }
+
+    @keyframes rotate {
+      from { transform: rotate(0deg) scale(1.2); }
+      to { transform: rotate(360deg) scale(1.2); }
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+      text-shadow: 0px 0px 15px rgba(0, 153, 255, 0.8);
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 20px;
+      padding: 20px 40px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #fff;
+      background: linear-gradient(135deg, #007bff, #00d4ff);
+      border: none;
+      border-radius: 15px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0px 5px 15px rgba(0, 123, 255, 0.3);
+    }
+
+    .btn:hover {
+      background: linear-gradient(135deg, #0056b3, #00a0c6);
+      transform: translateY(-5px) scale(1.05);
+      box-shadow: 0px 10px 25px rgba(0, 123, 255, 0.6);
+    }
+  </style>
+</head>
+<body>
+  <div class="globe"></div>
+  <div class="container">
+    <h1>🌍 Peta Interaktif KDTK & Uker</h1>
+    <a href="KDTK_Uker_Berdekatan_Sumut_Newww.html" class="btn">Provinsi Sumut</a>
+    <a href="KDTK_Uker_Berdekatan_All.html" class="btn">All Provinsi</a>
+  </div>
+</body>
+</html>
