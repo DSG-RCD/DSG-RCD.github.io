@@ -1,0 +1,2513 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_87d77398365fb6170433c64e0ee4ad4d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_87d77398365fb6170433c64e0ee4ad4d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_87d77398365fb6170433c64e0ee4ad4d = L.map(
+                "map_87d77398365fb6170433c64e0ee4ad4d",
+                {
+                    center: [-2.58195184178125, 140.630065925],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 9,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7fba04d6fd3202774942998a8ef11923 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7fba04d6fd3202774942998a8ef11923.addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            var marker_cluster_003cfcdf7de4b69f719cd40a505a2409 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_4509c236e1c8d20ec7233e896844e369 = L.marker(
+                [-2.607899904, 140.67453],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_858aea7c253a59f3425211dfde489415 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9c51278aa42fe18c94ab339288560c06 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e99eea3b309cd362c6e126ada35c27dd = $(`<div id="html_e99eea3b309cd362c6e126ada35c27dd" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TA2Z<br><b>Nama:</b> BARU PS LAMA<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_9c51278aa42fe18c94ab339288560c06.setContent(html_e99eea3b309cd362c6e126ada35c27dd);
+            
+        
+
+        marker_4509c236e1c8d20ec7233e896844e369.bindPopup(popup_9c51278aa42fe18c94ab339288560c06)
+        ;
+
+        
+    
+    
+            marker_4509c236e1c8d20ec7233e896844e369.bindTooltip(
+                `<div>
+                     TA2Z
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4509c236e1c8d20ec7233e896844e369.setIcon(icon_858aea7c253a59f3425211dfde489415);
+            
+    
+            var marker_7715cb76775645be4068af92683d0a90 = L.marker(
+                [-2.537524939, 140.7097321],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_3f99c14f459155c86da59327c7c36e1b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1e7ba3ac9d72927674e8ceb1dd19f4e5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_abaad918b6caa7e82d1b2ea13e172071 = $(`<div id="html_abaad918b6caa7e82d1b2ea13e172071" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> T9P8<br><b>Nama:</b> PASIFIC PERMAI<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_1e7ba3ac9d72927674e8ceb1dd19f4e5.setContent(html_abaad918b6caa7e82d1b2ea13e172071);
+            
+        
+
+        marker_7715cb76775645be4068af92683d0a90.bindPopup(popup_1e7ba3ac9d72927674e8ceb1dd19f4e5)
+        ;
+
+        
+    
+    
+            marker_7715cb76775645be4068af92683d0a90.bindTooltip(
+                `<div>
+                     T9P8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7715cb76775645be4068af92683d0a90.setIcon(icon_3f99c14f459155c86da59327c7c36e1b);
+            
+    
+            var marker_51379dabfb35794cc239f856721b7799 = L.marker(
+                [-2.59796381, 140.6788635],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_69cd01872c94289f19819bd2afec8fdb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4ab89b7350989a1729c83c1e38a54eae = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_35588a7c131a14f9f429c8d0fce3c026 = $(`<div id="html_35588a7c131a14f9f429c8d0fce3c026" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TOTC<br><b>Nama:</b> RAYA ABEPURA 17<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_4ab89b7350989a1729c83c1e38a54eae.setContent(html_35588a7c131a14f9f429c8d0fce3c026);
+            
+        
+
+        marker_51379dabfb35794cc239f856721b7799.bindPopup(popup_4ab89b7350989a1729c83c1e38a54eae)
+        ;
+
+        
+    
+    
+            marker_51379dabfb35794cc239f856721b7799.bindTooltip(
+                `<div>
+                     TOTC
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_51379dabfb35794cc239f856721b7799.setIcon(icon_69cd01872c94289f19819bd2afec8fdb);
+            
+    
+            var marker_c89c82574f03ddf3126f97cd6c32cbf1 = L.marker(
+                [-2.614916563, 140.6754303],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_1433840314de8618c905f85c60dce262 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f42578d2120cf8c74a6c1eebe1372101 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f24836460661c4a7ff375119716cbdcf = $(`<div id="html_f24836460661c4a7ff375119716cbdcf" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TDHA<br><b>Nama:</b> GERILYAWAN<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_f42578d2120cf8c74a6c1eebe1372101.setContent(html_f24836460661c4a7ff375119716cbdcf);
+            
+        
+
+        marker_c89c82574f03ddf3126f97cd6c32cbf1.bindPopup(popup_f42578d2120cf8c74a6c1eebe1372101)
+        ;
+
+        
+    
+    
+            marker_c89c82574f03ddf3126f97cd6c32cbf1.bindTooltip(
+                `<div>
+                     TDHA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c89c82574f03ddf3126f97cd6c32cbf1.setIcon(icon_1433840314de8618c905f85c60dce262);
+            
+    
+            var marker_8002fbf9c68ce73f97d19ebf59690f79 = L.marker(
+                [-2.574288845, 140.6880493],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_532a7a10c876adaba8f7bb039ca8e614 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1edc4c2f0451600a5ef388a8087aeecb = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0cbd4d8071c2a92c4ac7ab6f81be7c57 = $(`<div id="html_0cbd4d8071c2a92c4ac7ab6f81be7c57" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> T9YA<br><b>Nama:</b> ENTROP KM 7<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_1edc4c2f0451600a5ef388a8087aeecb.setContent(html_0cbd4d8071c2a92c4ac7ab6f81be7c57);
+            
+        
+
+        marker_8002fbf9c68ce73f97d19ebf59690f79.bindPopup(popup_1edc4c2f0451600a5ef388a8087aeecb)
+        ;
+
+        
+    
+    
+            marker_8002fbf9c68ce73f97d19ebf59690f79.bindTooltip(
+                `<div>
+                     T9YA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8002fbf9c68ce73f97d19ebf59690f79.setIcon(icon_532a7a10c876adaba8f7bb039ca8e614);
+            
+    
+            var marker_0ab4e0a7e331a1c71896ad0c703f6d8b = L.marker(
+                [-2.613311052, 140.6648407],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_04c52c7c5b2edc2db6ab940366fc58a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8f7516c89644a4555cbc97e904b26cfb = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4ce4bbaf205d482cb42931bff4500108 = $(`<div id="html_4ce4bbaf205d482cb42931bff4500108" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TWLB<br><b>Nama:</b> GERILYAWAN 41<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_8f7516c89644a4555cbc97e904b26cfb.setContent(html_4ce4bbaf205d482cb42931bff4500108);
+            
+        
+
+        marker_0ab4e0a7e331a1c71896ad0c703f6d8b.bindPopup(popup_8f7516c89644a4555cbc97e904b26cfb)
+        ;
+
+        
+    
+    
+            marker_0ab4e0a7e331a1c71896ad0c703f6d8b.bindTooltip(
+                `<div>
+                     TWLB
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0ab4e0a7e331a1c71896ad0c703f6d8b.setIcon(icon_04c52c7c5b2edc2db6ab940366fc58a3);
+            
+    
+            var marker_e726ad3cb3013c1cacd84271ef181826 = L.marker(
+                [-2.564833403, 140.5078735],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_f259f10d9890ed2e20ae9728cb826382 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c7228508f143590f82b56d6bc9691fa0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_defee3413455907a75abff22dad8fe10 = $(`<div id="html_defee3413455907a75abff22dad8fe10" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TC4M<br><b>Nama:</b> KEMIRI 56<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_c7228508f143590f82b56d6bc9691fa0.setContent(html_defee3413455907a75abff22dad8fe10);
+            
+        
+
+        marker_e726ad3cb3013c1cacd84271ef181826.bindPopup(popup_c7228508f143590f82b56d6bc9691fa0)
+        ;
+
+        
+    
+    
+            marker_e726ad3cb3013c1cacd84271ef181826.bindTooltip(
+                `<div>
+                     TC4M
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e726ad3cb3013c1cacd84271ef181826.setIcon(icon_f259f10d9890ed2e20ae9728cb826382);
+            
+    
+            var marker_663dedbf30a78e5945fc12d205be9d38 = L.marker(
+                [-2.567324877, 140.521225],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_c90395658e055e849d14cc17a620c328 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_418ff943c9b370069459636eb5ca2747 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_19510162bfd5b4bbe12c287e562f9056 = $(`<div id="html_19510162bfd5b4bbe12c287e562f9056" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TTYZ<br><b>Nama:</b> RAYA SENTANI<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_418ff943c9b370069459636eb5ca2747.setContent(html_19510162bfd5b4bbe12c287e562f9056);
+            
+        
+
+        marker_663dedbf30a78e5945fc12d205be9d38.bindPopup(popup_418ff943c9b370069459636eb5ca2747)
+        ;
+
+        
+    
+    
+            marker_663dedbf30a78e5945fc12d205be9d38.bindTooltip(
+                `<div>
+                     TTYZ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_663dedbf30a78e5945fc12d205be9d38.setIcon(icon_c90395658e055e849d14cc17a620c328);
+            
+    
+            var marker_0cf0aa2e8029e9c7548d6f415c542ed8 = L.marker(
+                [-2.64044714, 140.7759552],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_de39b0de85963d5cafb015be442c6843 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f073c65b507dafea439b4fa3be6139cd = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e8277ae293bcc1f605a2f72174c5758c = $(`<div id="html_e8277ae293bcc1f605a2f72174c5758c" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TPQ8<br><b>Nama:</b> HOLTEKAMP<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_f073c65b507dafea439b4fa3be6139cd.setContent(html_e8277ae293bcc1f605a2f72174c5758c);
+            
+        
+
+        marker_0cf0aa2e8029e9c7548d6f415c542ed8.bindPopup(popup_f073c65b507dafea439b4fa3be6139cd)
+        ;
+
+        
+    
+    
+            marker_0cf0aa2e8029e9c7548d6f415c542ed8.bindTooltip(
+                `<div>
+                     TPQ8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0cf0aa2e8029e9c7548d6f415c542ed8.setIcon(icon_de39b0de85963d5cafb015be442c6843);
+            
+    
+            var marker_dc0a64569d065b06f35090f431097bc9 = L.marker(
+                [-2.576294422, 140.708252],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_93f443c733b98f41392c8f978f4af4b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_71bef8a2649ea6eed1ccb12b360ef4d0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_47a3c0886eb26858712ee8d213e65897 = $(`<div id="html_47a3c0886eb26858712ee8d213e65897" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TTUX<br><b>Nama:</b> HAMADI PANTE<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_71bef8a2649ea6eed1ccb12b360ef4d0.setContent(html_47a3c0886eb26858712ee8d213e65897);
+            
+        
+
+        marker_dc0a64569d065b06f35090f431097bc9.bindPopup(popup_71bef8a2649ea6eed1ccb12b360ef4d0)
+        ;
+
+        
+    
+    
+            marker_dc0a64569d065b06f35090f431097bc9.bindTooltip(
+                `<div>
+                     TTUX
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dc0a64569d065b06f35090f431097bc9.setIcon(icon_93f443c733b98f41392c8f978f4af4b9);
+            
+    
+            var marker_a2d6cc9e0108436322045ece1d291926 = L.marker(
+                [-2.545913935, 140.7114868],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_0f744a0ef8e3e145a620a0609f1e7949 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0c2c4fb6a3c8c556a3f100decc06a70c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_34d89b14e9c1a547d185b958c39f1f33 = $(`<div id="html_34d89b14e9c1a547d185b958c39f1f33" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TUPF<br><b>Nama:</b> KOTI 44<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_0c2c4fb6a3c8c556a3f100decc06a70c.setContent(html_34d89b14e9c1a547d185b958c39f1f33);
+            
+        
+
+        marker_a2d6cc9e0108436322045ece1d291926.bindPopup(popup_0c2c4fb6a3c8c556a3f100decc06a70c)
+        ;
+
+        
+    
+    
+            marker_a2d6cc9e0108436322045ece1d291926.bindTooltip(
+                `<div>
+                     TUPF
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a2d6cc9e0108436322045ece1d291926.setIcon(icon_0f744a0ef8e3e145a620a0609f1e7949);
+            
+    
+            var marker_a9254840474a593a128b4edbd03fcf95 = L.marker(
+                [-2.567419291, 140.7003479],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_5adaadc932082d2ab95fe7a126cd36e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bd9c1f1971c520e64c221403a7fb6a5c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8609584dec7a0d0850d1105edaa80808 = $(`<div id="html_8609584dec7a0d0850d1105edaa80808" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TXX8<br><b>Nama:</b> ENTROP<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_bd9c1f1971c520e64c221403a7fb6a5c.setContent(html_8609584dec7a0d0850d1105edaa80808);
+            
+        
+
+        marker_a9254840474a593a128b4edbd03fcf95.bindPopup(popup_bd9c1f1971c520e64c221403a7fb6a5c)
+        ;
+
+        
+    
+    
+            marker_a9254840474a593a128b4edbd03fcf95.bindTooltip(
+                `<div>
+                     TXX8
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a9254840474a593a128b4edbd03fcf95.setIcon(icon_5adaadc932082d2ab95fe7a126cd36e6);
+            
+    
+            var marker_12fcd353842bb95df0dc0507ef973b65 = L.marker(
+                [-2.603883266, 140.6780853],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_4cbaec8b9a19790ba2c6500a80e0a0e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_af3f25c1fb0d50eba35c0a5294fd9b2d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2aca8ed4eae336945c5c55b440d1d038 = $(`<div id="html_2aca8ed4eae336945c5c55b440d1d038" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TT9C<br><b>Nama:</b> BTN SKYLINE<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_af3f25c1fb0d50eba35c0a5294fd9b2d.setContent(html_2aca8ed4eae336945c5c55b440d1d038);
+            
+        
+
+        marker_12fcd353842bb95df0dc0507ef973b65.bindPopup(popup_af3f25c1fb0d50eba35c0a5294fd9b2d)
+        ;
+
+        
+    
+    
+            marker_12fcd353842bb95df0dc0507ef973b65.bindTooltip(
+                `<div>
+                     TT9C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_12fcd353842bb95df0dc0507ef973b65.setIcon(icon_4cbaec8b9a19790ba2c6500a80e0a0e6);
+            
+    
+            var marker_1a7c7a4b962bc41e1acac0b6aee52c4c = L.marker(
+                [-2.582505465, 140.5753632],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_1422126da2228c302b843811e0656c0e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2bc36cdd487f75876750009622fd1c74 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f47f7170ef8f7192068ce74f4ed2bfdd = $(`<div id="html_f47f7170ef8f7192068ce74f4ed2bfdd" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TVMI<br><b>Nama:</b> NOLOKLA<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_2bc36cdd487f75876750009622fd1c74.setContent(html_f47f7170ef8f7192068ce74f4ed2bfdd);
+            
+        
+
+        marker_1a7c7a4b962bc41e1acac0b6aee52c4c.bindPopup(popup_2bc36cdd487f75876750009622fd1c74)
+        ;
+
+        
+    
+    
+            marker_1a7c7a4b962bc41e1acac0b6aee52c4c.bindTooltip(
+                `<div>
+                     TVMI
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1a7c7a4b962bc41e1acac0b6aee52c4c.setIcon(icon_1422126da2228c302b843811e0656c0e);
+            
+    
+            var marker_36bf3b9b2e8043a62b37ca227e6f8e50 = L.marker(
+                [-2.528899908, 140.7224579],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_9d49adeeeed08e9cf777f1fdc5b0fda1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b44df707a6bf78c7598cee3c7c8d60c9 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a372ef50e0ab202e72e900cdddff7338 = $(`<div id="html_a372ef50e0ab202e72e900cdddff7338" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TJLC<br><b>Nama:</b> SULAWESI<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_b44df707a6bf78c7598cee3c7c8d60c9.setContent(html_a372ef50e0ab202e72e900cdddff7338);
+            
+        
+
+        marker_36bf3b9b2e8043a62b37ca227e6f8e50.bindPopup(popup_b44df707a6bf78c7598cee3c7c8d60c9)
+        ;
+
+        
+    
+    
+            marker_36bf3b9b2e8043a62b37ca227e6f8e50.bindTooltip(
+                `<div>
+                     TJLC
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_36bf3b9b2e8043a62b37ca227e6f8e50.setIcon(icon_9d49adeeeed08e9cf777f1fdc5b0fda1);
+            
+    
+            var marker_aaa4f78aacfee8a576a2f8063e330622 = L.marker(
+                [-2.617555618, 140.6836243],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_4163a8cf3eccd1a2a58702ca79953288 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_592ad96eb5740f42d25d96168c0a7b5f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f67350e832364259e8c4944e994f8330 = $(`<div id="html_f67350e832364259e8c4944e994f8330" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> T0OA<br><b>Nama:</b> ABEPANTAI<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_592ad96eb5740f42d25d96168c0a7b5f.setContent(html_f67350e832364259e8c4944e994f8330);
+            
+        
+
+        marker_aaa4f78aacfee8a576a2f8063e330622.bindPopup(popup_592ad96eb5740f42d25d96168c0a7b5f)
+        ;
+
+        
+    
+    
+            marker_aaa4f78aacfee8a576a2f8063e330622.bindTooltip(
+                `<div>
+                     T0OA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_aaa4f78aacfee8a576a2f8063e330622.setIcon(icon_4163a8cf3eccd1a2a58702ca79953288);
+            
+    
+            var marker_5bdde9d6451d91950cd24e028d572f8a = L.marker(
+                [-2.569952726, 140.5300751],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_f6bf1418b84df3f5f14f6757b42dee53 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f96c8b84345d2af0f5f2bc5095bf32da = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_171066b77b25a054c4121150e225790d = $(`<div id="html_171066b77b25a054c4121150e225790d" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TT0N<br><b>Nama:</b> HAWAI SENTANI<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_f96c8b84345d2af0f5f2bc5095bf32da.setContent(html_171066b77b25a054c4121150e225790d);
+            
+        
+
+        marker_5bdde9d6451d91950cd24e028d572f8a.bindPopup(popup_f96c8b84345d2af0f5f2bc5095bf32da)
+        ;
+
+        
+    
+    
+            marker_5bdde9d6451d91950cd24e028d572f8a.bindTooltip(
+                `<div>
+                     TT0N
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5bdde9d6451d91950cd24e028d572f8a.setIcon(icon_f6bf1418b84df3f5f14f6757b42dee53);
+            
+    
+            var marker_92f5dc6c8e9d06f180128f4924bc746c = L.marker(
+                [-2.597180367, 140.6347198],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_48677fb1c8c038c6c04e2367a248a2e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0393944482ad97b0c2a179856a67b0b0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_442c5b54498801e60c916ecd0f021ef6 = $(`<div id="html_442c5b54498801e60c916ecd0f021ef6" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TZXA<br><b>Nama:</b> ABEPURA SENTANI<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_0393944482ad97b0c2a179856a67b0b0.setContent(html_442c5b54498801e60c916ecd0f021ef6);
+            
+        
+
+        marker_92f5dc6c8e9d06f180128f4924bc746c.bindPopup(popup_0393944482ad97b0c2a179856a67b0b0)
+        ;
+
+        
+    
+    
+            marker_92f5dc6c8e9d06f180128f4924bc746c.bindTooltip(
+                `<div>
+                     TZXA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_92f5dc6c8e9d06f180128f4924bc746c.setIcon(icon_48677fb1c8c038c6c04e2367a248a2e5);
+            
+    
+            var marker_18b05980aad2ba5b1ce236d8bb993daa = L.marker(
+                [-2.563880444, 140.7143555],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_0288a2df7caebeb1750cebb4b969f565 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c888bfd702c7f2091918e3d15678a0c3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_eba8f9f25996a5bc7a0c187773206e6f = $(`<div id="html_eba8f9f25996a5bc7a0c187773206e6f" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TVPB<br><b>Nama:</b> PERIKANAN 11<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_c888bfd702c7f2091918e3d15678a0c3.setContent(html_eba8f9f25996a5bc7a0c187773206e6f);
+            
+        
+
+        marker_18b05980aad2ba5b1ce236d8bb993daa.bindPopup(popup_c888bfd702c7f2091918e3d15678a0c3)
+        ;
+
+        
+    
+    
+            marker_18b05980aad2ba5b1ce236d8bb993daa.bindTooltip(
+                `<div>
+                     TVPB
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_18b05980aad2ba5b1ce236d8bb993daa.setIcon(icon_0288a2df7caebeb1750cebb4b969f565);
+            
+    
+            var marker_780e4b8170dda32ce42acddfc17d13e3 = L.marker(
+                [-2.542863846, 140.461731],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_357066660188da56807adce1448d1fc5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9b7d417620c1cd92612950254f8cf2aa = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ed522dc3e26b6b6fed02a5ca8a8acc00 = $(`<div id="html_ed522dc3e26b6b6fed02a5ca8a8acc00" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TB6Y<br><b>Nama:</b> DOYO BARU 57<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_9b7d417620c1cd92612950254f8cf2aa.setContent(html_ed522dc3e26b6b6fed02a5ca8a8acc00);
+            
+        
+
+        marker_780e4b8170dda32ce42acddfc17d13e3.bindPopup(popup_9b7d417620c1cd92612950254f8cf2aa)
+        ;
+
+        
+    
+    
+            marker_780e4b8170dda32ce42acddfc17d13e3.bindTooltip(
+                `<div>
+                     TB6Y
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_780e4b8170dda32ce42acddfc17d13e3.setIcon(icon_357066660188da56807adce1448d1fc5);
+            
+    
+            var marker_8bbd3006a31b52217f63d71e55b20caa = L.marker(
+                [-2.614147186, 140.6841431],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_8f79639e87bd27f8a12712dd93cb1f21 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7736fb2f21fd251bf5166df085df509a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_43854a13fc2838366319ee89933c5133 = $(`<div id="html_43854a13fc2838366319ee89933c5133" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TDEM<br><b>Nama:</b> RAYA ENGGROS<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_7736fb2f21fd251bf5166df085df509a.setContent(html_43854a13fc2838366319ee89933c5133);
+            
+        
+
+        marker_8bbd3006a31b52217f63d71e55b20caa.bindPopup(popup_7736fb2f21fd251bf5166df085df509a)
+        ;
+
+        
+    
+    
+            marker_8bbd3006a31b52217f63d71e55b20caa.bindTooltip(
+                `<div>
+                     TDEM
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8bbd3006a31b52217f63d71e55b20caa.setIcon(icon_8f79639e87bd27f8a12712dd93cb1f21);
+            
+    
+            var marker_909a76ea9b230ae8ec5ee204853ca9e8 = L.marker(
+                [-2.597322226, 140.6296082],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_be95bfd6ef7103cabc3e8932f8f2ebca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fb4e6ae52c51a9a1d214749755d08018 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_18a475f8a4e21152567526cdc2c4fc43 = $(`<div id="html_18a475f8a4e21152567526cdc2c4fc43" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TSXB<br><b>Nama:</b> EXPO WAENA<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_fb4e6ae52c51a9a1d214749755d08018.setContent(html_18a475f8a4e21152567526cdc2c4fc43);
+            
+        
+
+        marker_909a76ea9b230ae8ec5ee204853ca9e8.bindPopup(popup_fb4e6ae52c51a9a1d214749755d08018)
+        ;
+
+        
+    
+    
+            marker_909a76ea9b230ae8ec5ee204853ca9e8.bindTooltip(
+                `<div>
+                     TSXB
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_909a76ea9b230ae8ec5ee204853ca9e8.setIcon(icon_be95bfd6ef7103cabc3e8932f8f2ebca);
+            
+    
+            var marker_bd090c13c7e033235ac65257f5743562 = L.marker(
+                [-2.541663885, 140.4686737],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_b7525db241058c7df324828d97c8ed1f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_876839a3222a8764ba8503d307fec25b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0aaac71453b74070432774b3e0cb424d = $(`<div id="html_0aaac71453b74070432774b3e0cb424d" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TLGX<br><b>Nama:</b> DOYO BARU<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_876839a3222a8764ba8503d307fec25b.setContent(html_0aaac71453b74070432774b3e0cb424d);
+            
+        
+
+        marker_bd090c13c7e033235ac65257f5743562.bindPopup(popup_876839a3222a8764ba8503d307fec25b)
+        ;
+
+        
+    
+    
+            marker_bd090c13c7e033235ac65257f5743562.bindTooltip(
+                `<div>
+                     TLGX
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bd090c13c7e033235ac65257f5743562.setIcon(icon_b7525db241058c7df324828d97c8ed1f);
+            
+    
+            var marker_e3d8e19cb82c2b36141e8f465b2207b1 = L.marker(
+                [-2.590524912, 140.6408844],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_382014b4f3f5b4a460abb7dbc78a1360 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c217ef8d5c1bc8754277e3c619261a6a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_6b26bf43289ab3f1e131e730b58a11a5 = $(`<div id="html_6b26bf43289ab3f1e131e730b58a11a5" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> T154<br><b>Nama:</b> TARUNA BHAKTI 2-3<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_c217ef8d5c1bc8754277e3c619261a6a.setContent(html_6b26bf43289ab3f1e131e730b58a11a5);
+            
+        
+
+        marker_e3d8e19cb82c2b36141e8f465b2207b1.bindPopup(popup_c217ef8d5c1bc8754277e3c619261a6a)
+        ;
+
+        
+    
+    
+            marker_e3d8e19cb82c2b36141e8f465b2207b1.bindTooltip(
+                `<div>
+                     T154
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e3d8e19cb82c2b36141e8f465b2207b1.setIcon(icon_382014b4f3f5b4a460abb7dbc78a1360);
+            
+    
+            var marker_6f3afc9c72d381df64b9707a3848955b = L.marker(
+                [-2.5749888419999998, 140.498764],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_cb360248e0b6882319fa4a7b33703d7a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e83ee79e00a7cb692935c44770253f70 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_86e49bf9bf9ab4014227638ed206e4f6 = $(`<div id="html_86e49bf9bf9ab4014227638ed206e4f6" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TYG2<br><b>Nama:</b> KEHIRAN 21<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_e83ee79e00a7cb692935c44770253f70.setContent(html_86e49bf9bf9ab4014227638ed206e4f6);
+            
+        
+
+        marker_6f3afc9c72d381df64b9707a3848955b.bindPopup(popup_e83ee79e00a7cb692935c44770253f70)
+        ;
+
+        
+    
+    
+            marker_6f3afc9c72d381df64b9707a3848955b.bindTooltip(
+                `<div>
+                     TYG2
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6f3afc9c72d381df64b9707a3848955b.setIcon(icon_cb360248e0b6882319fa4a7b33703d7a);
+            
+    
+            var marker_b951ab157a99bb1eec3c77b840daf5c3 = L.marker(
+                [-2.565102816, 140.7098541],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_fd4538564e115424d5a5529f7a14df75 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ff3fd900e1978688c6dfc3087cbab298 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_547d1ac8e26cdab42faf6dddfe254b46 = $(`<div id="html_547d1ac8e26cdab42faf6dddfe254b46" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TLGT<br><b>Nama:</b> AMPHIBI 22<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_ff3fd900e1978688c6dfc3087cbab298.setContent(html_547d1ac8e26cdab42faf6dddfe254b46);
+            
+        
+
+        marker_b951ab157a99bb1eec3c77b840daf5c3.bindPopup(popup_ff3fd900e1978688c6dfc3087cbab298)
+        ;
+
+        
+    
+    
+            marker_b951ab157a99bb1eec3c77b840daf5c3.bindTooltip(
+                `<div>
+                     TLGT
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b951ab157a99bb1eec3c77b840daf5c3.setIcon(icon_fd4538564e115424d5a5529f7a14df75);
+            
+    
+            var marker_cb26ee31a227720f6a0f557ba809b380 = L.marker(
+                [-2.643230438, 140.806427],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_94911e90a0c988cd4525832ca11cd3cd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c494ac42400afe927584bae3ef7e926a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c768d7d492a04237d5e3c1cb26aac7b6 = $(`<div id="html_c768d7d492a04237d5e3c1cb26aac7b6" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TR6C<br><b>Nama:</b> KOYA<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_c494ac42400afe927584bae3ef7e926a.setContent(html_c768d7d492a04237d5e3c1cb26aac7b6);
+            
+        
+
+        marker_cb26ee31a227720f6a0f557ba809b380.bindPopup(popup_c494ac42400afe927584bae3ef7e926a)
+        ;
+
+        
+    
+    
+            marker_cb26ee31a227720f6a0f557ba809b380.bindTooltip(
+                `<div>
+                     TR6C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cb26ee31a227720f6a0f557ba809b380.setIcon(icon_94911e90a0c988cd4525832ca11cd3cd);
+            
+    
+            var marker_9876791e3bad20e8998e3424e852b886 = L.marker(
+                [-2.605677605, 140.6533356],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_04ad053669ca6aa0414ddd48d444e903 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_22c787cbff4e3c83958640520a034c4b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1aa09a34119ee4025e0dc59ce0d4a5ce = $(`<div id="html_1aa09a34119ee4025e0dc59ce0d4a5ce" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TJZY<br><b>Nama:</b> PADANG BULAN 68<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_22c787cbff4e3c83958640520a034c4b.setContent(html_1aa09a34119ee4025e0dc59ce0d4a5ce);
+            
+        
+
+        marker_9876791e3bad20e8998e3424e852b886.bindPopup(popup_22c787cbff4e3c83958640520a034c4b)
+        ;
+
+        
+    
+    
+            marker_9876791e3bad20e8998e3424e852b886.bindTooltip(
+                `<div>
+                     TJZY
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9876791e3bad20e8998e3424e852b886.setIcon(icon_04ad053669ca6aa0414ddd48d444e903);
+            
+    
+            var marker_8151f9d89a19469e3ed35473cada4697 = L.marker(
+                [-2.568110943, 140.5048676],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_16bd24a48b6707a4d606b02d991c96e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dee0188bdc1d5fd91a9aed1942e0842e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_faffbcf74448f42f972baf3d15a45c88 = $(`<div id="html_faffbcf74448f42f972baf3d15a45c88" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> T7IS<br><b>Nama:</b> YAHIM 29<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_dee0188bdc1d5fd91a9aed1942e0842e.setContent(html_faffbcf74448f42f972baf3d15a45c88);
+            
+        
+
+        marker_8151f9d89a19469e3ed35473cada4697.bindPopup(popup_dee0188bdc1d5fd91a9aed1942e0842e)
+        ;
+
+        
+    
+    
+            marker_8151f9d89a19469e3ed35473cada4697.bindTooltip(
+                `<div>
+                     T7IS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8151f9d89a19469e3ed35473cada4697.setIcon(icon_16bd24a48b6707a4d606b02d991c96e2);
+            
+    
+            var marker_27b3c1ad8d87c9d09b6d0c45855773a1 = L.marker(
+                [-2.570197105, 140.5130157],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_4440520326ef8c334e4ba55c188556ed = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8d23ad6727c5ea22cf624ae71063c367 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_15cff66cfbc5675977ded691b34d0bbb = $(`<div id="html_15cff66cfbc5675977ded691b34d0bbb" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TKGL<br><b>Nama:</b> POINT BANDARA SENTANI<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_8d23ad6727c5ea22cf624ae71063c367.setContent(html_15cff66cfbc5675977ded691b34d0bbb);
+            
+        
+
+        marker_27b3c1ad8d87c9d09b6d0c45855773a1.bindPopup(popup_8d23ad6727c5ea22cf624ae71063c367)
+        ;
+
+        
+    
+    
+            marker_27b3c1ad8d87c9d09b6d0c45855773a1.bindTooltip(
+                `<div>
+                     TKGL
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_27b3c1ad8d87c9d09b6d0c45855773a1.setIcon(icon_4440520326ef8c334e4ba55c188556ed);
+            
+    
+            var marker_db5aff3ba932563e5c39e3df76ff581d = L.marker(
+                [-2.55995822, 140.4942017],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_309f2ed044ac883f020fab60422a3d1a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_de485641e413d9e8f8b2e35f767aa9ba = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f614a1d4fca91db9715c4d576e1cc21b = $(`<div id="html_f614a1d4fca91db9715c4d576e1cc21b" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TA6Z<br><b>Nama:</b> KEMIRI 9<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_de485641e413d9e8f8b2e35f767aa9ba.setContent(html_f614a1d4fca91db9715c4d576e1cc21b);
+            
+        
+
+        marker_db5aff3ba932563e5c39e3df76ff581d.bindPopup(popup_de485641e413d9e8f8b2e35f767aa9ba)
+        ;
+
+        
+    
+    
+            marker_db5aff3ba932563e5c39e3df76ff581d.bindTooltip(
+                `<div>
+                     TA6Z
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_db5aff3ba932563e5c39e3df76ff581d.setIcon(icon_309f2ed044ac883f020fab60422a3d1a);
+            
+    
+            var marker_4be2183f65ea19bc6581165464a2e8ca = L.marker(
+                [-2.576674938, 140.5413361],
+                {
+}
+            ).addTo(marker_cluster_003cfcdf7de4b69f719cd40a505a2409);
+        
+    
+            var icon_f5534d47b95979fb929e3cf46aa899cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3b00ac173f99c13224c453e4e3ae6a04 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_126410265af284aee03e978d0764e19a = $(`<div id="html_126410265af284aee03e978d0764e19a" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TPFJ<br><b>Nama:</b> NENDALI<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_3b00ac173f99c13224c453e4e3ae6a04.setContent(html_126410265af284aee03e978d0764e19a);
+            
+        
+
+        marker_4be2183f65ea19bc6581165464a2e8ca.bindPopup(popup_3b00ac173f99c13224c453e4e3ae6a04)
+        ;
+
+        
+    
+    
+            marker_4be2183f65ea19bc6581165464a2e8ca.bindTooltip(
+                `<div>
+                     TPFJ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4be2183f65ea19bc6581165464a2e8ca.setIcon(icon_f5534d47b95979fb929e3cf46aa899cf);
+            
+    
+            marker_cluster_003cfcdf7de4b69f719cd40a505a2409.addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            var marker_881765b7978151d9c87be9a263b30a63 = L.marker(
+                [-2.673862, 140.804215],
+                {
+}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            var icon_daa4476abc1e4b0b7778030858b3003b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3d5b013d6447344148a0c1ff1d97765a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a7b3937fba74c23e1f723cf3d94bac10 = $(`<div id="html_a7b3937fba74c23e1f723cf3d94bac10" style="width: 100.0%; height: 100.0%;"><b>Uker:</b> 7517.0<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_3d5b013d6447344148a0c1ff1d97765a.setContent(html_a7b3937fba74c23e1f723cf3d94bac10);
+            
+        
+
+        marker_881765b7978151d9c87be9a263b30a63.bindPopup(popup_3d5b013d6447344148a0c1ff1d97765a)
+        ;
+
+        
+    
+    
+            marker_881765b7978151d9c87be9a263b30a63.bindTooltip(
+                `<div>
+                     Uker 7517.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_881765b7978151d9c87be9a263b30a63.setIcon(icon_daa4476abc1e4b0b7778030858b3003b);
+            
+    
+            var marker_c2ed834cc1e34af3c3817d4d4b32e125 = L.marker(
+                [-2.567925, 140.702054],
+                {
+}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            var icon_b27df44da7e952f087298c02955903b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_44838cc4533b1bf2f268a75f74ad388d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1d697a9ccdd164f3d9aac012eb2511ed = $(`<div id="html_1d697a9ccdd164f3d9aac012eb2511ed" style="width: 100.0%; height: 100.0%;"><b>Uker:</b> 640.0<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_44838cc4533b1bf2f268a75f74ad388d.setContent(html_1d697a9ccdd164f3d9aac012eb2511ed);
+            
+        
+
+        marker_c2ed834cc1e34af3c3817d4d4b32e125.bindPopup(popup_44838cc4533b1bf2f268a75f74ad388d)
+        ;
+
+        
+    
+    
+            marker_c2ed834cc1e34af3c3817d4d4b32e125.bindTooltip(
+                `<div>
+                     Uker 640.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c2ed834cc1e34af3c3817d4d4b32e125.setIcon(icon_b27df44da7e952f087298c02955903b5);
+            
+    
+            var marker_fad316934e366026136d0e0004a75c79 = L.marker(
+                [-2.54000909483908, 140.705214312036],
+                {
+}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            var icon_aca843c8b635c06b56e38907e11335ce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_334fef0a1f8d286fa4dddc14bff02a17 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_13c28a5bfc42923d9112d3cc10c4ea79 = $(`<div id="html_13c28a5bfc42923d9112d3cc10c4ea79" style="width: 100.0%; height: 100.0%;"><b>Uker:</b> 3624.0<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_334fef0a1f8d286fa4dddc14bff02a17.setContent(html_13c28a5bfc42923d9112d3cc10c4ea79);
+            
+        
+
+        marker_fad316934e366026136d0e0004a75c79.bindPopup(popup_334fef0a1f8d286fa4dddc14bff02a17)
+        ;
+
+        
+    
+    
+            marker_fad316934e366026136d0e0004a75c79.bindTooltip(
+                `<div>
+                     Uker 3624.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fad316934e366026136d0e0004a75c79.setIcon(icon_aca843c8b635c06b56e38907e11335ce);
+            
+    
+            var marker_7d76d66b882234272efc588ab0172037 = L.marker(
+                [-2.59777, 140.63548],
+                {
+}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            var icon_ebc1865bcdbfaa5ef4134994dbe5b019 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c158c6d12aca9c24c416b11eb535f4c5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_bba5d740c45edd967e61c96471c08f0c = $(`<div id="html_bba5d740c45edd967e61c96471c08f0c" style="width: 100.0%; height: 100.0%;"><b>Uker:</b> 4920.0<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_c158c6d12aca9c24c416b11eb535f4c5.setContent(html_bba5d740c45edd967e61c96471c08f0c);
+            
+        
+
+        marker_7d76d66b882234272efc588ab0172037.bindPopup(popup_c158c6d12aca9c24c416b11eb535f4c5)
+        ;
+
+        
+    
+    
+            marker_7d76d66b882234272efc588ab0172037.bindTooltip(
+                `<div>
+                     Uker 4920.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7d76d66b882234272efc588ab0172037.setIcon(icon_ebc1865bcdbfaa5ef4134994dbe5b019);
+            
+    
+            var marker_a9187c4aba5609aa49a23e9dafeaad21 = L.marker(
+                [-2.522016, 140.724785],
+                {
+}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            var icon_7fca78ea14ae7ae90e4e28b16b6cf3c6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9e7ab3fe26b5765306cb73eb3384e61c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a4dd1022f763cf8666c51fe6b766d830 = $(`<div id="html_a4dd1022f763cf8666c51fe6b766d830" style="width: 100.0%; height: 100.0%;"><b>Uker:</b> 4919.0<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_9e7ab3fe26b5765306cb73eb3384e61c.setContent(html_a4dd1022f763cf8666c51fe6b766d830);
+            
+        
+
+        marker_a9187c4aba5609aa49a23e9dafeaad21.bindPopup(popup_9e7ab3fe26b5765306cb73eb3384e61c)
+        ;
+
+        
+    
+    
+            marker_a9187c4aba5609aa49a23e9dafeaad21.bindTooltip(
+                `<div>
+                     Uker 4919.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a9187c4aba5609aa49a23e9dafeaad21.setIcon(icon_7fca78ea14ae7ae90e4e28b16b6cf3c6);
+            
+    
+            var marker_157a76b9eb985d0d57d3906360edd8ce = L.marker(
+                [-2.565554, 140.513123],
+                {
+}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            var icon_ccc0f0c9710e4379d43d6acc5c338463 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_65285fc3620537bc7f539fafa788e725 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_2f8027ca18237759f3d6795426309021 = $(`<div id="html_2f8027ca18237759f3d6795426309021" style="width: 100.0%; height: 100.0%;"><b>Uker:</b> 7516.0<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_65285fc3620537bc7f539fafa788e725.setContent(html_2f8027ca18237759f3d6795426309021);
+            
+        
+
+        marker_157a76b9eb985d0d57d3906360edd8ce.bindPopup(popup_65285fc3620537bc7f539fafa788e725)
+        ;
+
+        
+    
+    
+            marker_157a76b9eb985d0d57d3906360edd8ce.bindTooltip(
+                `<div>
+                     Uker 7516.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_157a76b9eb985d0d57d3906360edd8ce.setIcon(icon_ccc0f0c9710e4379d43d6acc5c338463);
+            
+    
+            var marker_f8ccfdbad030a5f68e7a038e394c9a3d = L.marker(
+                [-2.56466, 140.508325],
+                {
+}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            var icon_c4fe892be1038eba7bb71de9cfdb1a08 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d2ae99440f0b3c01b737069a25f28223 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b4a538bc9205fc4d30f4a9e20142010a = $(`<div id="html_b4a538bc9205fc4d30f4a9e20142010a" style="width: 100.0%; height: 100.0%;"><b>Uker:</b> 1082.0<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_d2ae99440f0b3c01b737069a25f28223.setContent(html_b4a538bc9205fc4d30f4a9e20142010a);
+            
+        
+
+        marker_f8ccfdbad030a5f68e7a038e394c9a3d.bindPopup(popup_d2ae99440f0b3c01b737069a25f28223)
+        ;
+
+        
+    
+    
+            marker_f8ccfdbad030a5f68e7a038e394c9a3d.bindTooltip(
+                `<div>
+                     Uker 1082.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f8ccfdbad030a5f68e7a038e394c9a3d.setIcon(icon_c4fe892be1038eba7bb71de9cfdb1a08);
+            
+    
+            var marker_14b8b3b39d4df5c08d5586b434118cac = L.marker(
+                [-2.56268, 140.715394],
+                {
+}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            var icon_3be7984aabf2955eeeacb00b461915fd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f4e4e953a5aa04fe71e2d9ea8c65a708 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f23124a4daaf03a287e66ca3f80e95a2 = $(`<div id="html_f23124a4daaf03a287e66ca3f80e95a2" style="width: 100.0%; height: 100.0%;"><b>Uker:</b> 4913.0<br><b>Kota:</b> JAYAPURA</div>`)[0];
+                popup_f4e4e953a5aa04fe71e2d9ea8c65a708.setContent(html_f23124a4daaf03a287e66ca3f80e95a2);
+            
+        
+
+        marker_14b8b3b39d4df5c08d5586b434118cac.bindPopup(popup_f4e4e953a5aa04fe71e2d9ea8c65a708)
+        ;
+
+        
+    
+    
+            marker_14b8b3b39d4df5c08d5586b434118cac.bindTooltip(
+                `<div>
+                     Uker 4913.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_14b8b3b39d4df5c08d5586b434118cac.setIcon(icon_3be7984aabf2955eeeacb00b461915fd);
+            
+    
+            var poly_line_23fad452720d811bcae0278412f7b3cf = L.polyline(
+                [[-2.607899904, 140.67453], [-2.614916563, 140.6754303]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_23fad452720d811bcae0278412f7b3cf.bindTooltip(
+                `<div>
+                     TA2Z ↔ TDHA : 786 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_852f4fd180b54569223c921cedab276c = L.polyline(
+                [[-2.607899904, 140.67453], [-2.603883266, 140.6780853]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_852f4fd180b54569223c921cedab276c.bindTooltip(
+                `<div>
+                     TA2Z ↔ TT9C : 596 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_1e4ebfc8576df18f205e23b0c615a3dc = L.polyline(
+                [[-2.537524939, 140.7097321], [-2.545913935, 140.7114868]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_1e4ebfc8576df18f205e23b0c615a3dc.bindTooltip(
+                `<div>
+                     T9P8 ↔ TUPF : 952 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_3d4f3e03967b5f14a67049cf1d40b54e = L.polyline(
+                [[-2.59796381, 140.6788635], [-2.603883266, 140.6780853]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_3d4f3e03967b5f14a67049cf1d40b54e.bindTooltip(
+                `<div>
+                     TOTC ↔ TT9C : 663 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_0d2ada53d75c98f849ad9de3abf12d47 = L.polyline(
+                [[-2.614916563, 140.6754303], [-2.617555618, 140.6836243]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_0d2ada53d75c98f849ad9de3abf12d47.bindTooltip(
+                `<div>
+                     TDHA ↔ T0OA : 956 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_1c08c020cfc1bcdfa003ba66b958ea47 = L.polyline(
+                [[-2.614916563, 140.6754303], [-2.614147186, 140.6841431]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_1c08c020cfc1bcdfa003ba66b958ea47.bindTooltip(
+                `<div>
+                     TDHA ↔ TDEM : 971 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_a0446e4043e7f884cbacf435227a8f4d = L.polyline(
+                [[-2.564833403, 140.5078735], [-2.568110943, 140.5048676]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_a0446e4043e7f884cbacf435227a8f4d.bindTooltip(
+                `<div>
+                     TC4M ↔ T7IS : 494 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_83ae904ff3fc245f739ea8f0de70c719 = L.polyline(
+                [[-2.564833403, 140.5078735], [-2.570197105, 140.5130157]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_83ae904ff3fc245f739ea8f0de70c719.bindTooltip(
+                `<div>
+                     TC4M ↔ TKGL : 825 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_9db4ad7cfaf610cd942a511ade7d2f2d = L.polyline(
+                [[-2.567324877, 140.521225], [-2.570197105, 140.5130157]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_9db4ad7cfaf610cd942a511ade7d2f2d.bindTooltip(
+                `<div>
+                     TTYZ ↔ TKGL : 966 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_29b8e8c13da416a3f86c7fe0c0ecc4b6 = L.polyline(
+                [[-2.617555618, 140.6836243], [-2.614147186, 140.6841431]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_29b8e8c13da416a3f86c7fe0c0ecc4b6.bindTooltip(
+                `<div>
+                     T0OA ↔ TDEM : 383 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_6a7b374644ce1621a76124988180fceb = L.polyline(
+                [[-2.597180367, 140.6347198], [-2.597322226, 140.6296082]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_6a7b374644ce1621a76124988180fceb.bindTooltip(
+                `<div>
+                     TZXA ↔ TSXB : 568 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_aa31209e2ca96a304d35b37c565bc350 = L.polyline(
+                [[-2.563880444, 140.7143555], [-2.565102816, 140.7098541]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_aa31209e2ca96a304d35b37c565bc350.bindTooltip(
+                `<div>
+                     TVPB ↔ TLGT : 518 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_19f219393759eafa590253775ec2f368 = L.polyline(
+                [[-2.542863846, 140.461731], [-2.541663885, 140.4686737]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_19f219393759eafa590253775ec2f368.bindTooltip(
+                `<div>
+                     TB6Y ↔ TLGX : 782 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_67f8d50771c1901763f7ce926f21681a = L.polyline(
+                [[-2.568110943, 140.5048676], [-2.570197105, 140.5130157]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_67f8d50771c1901763f7ce926f21681a.bindTooltip(
+                `<div>
+                     T7IS ↔ TKGL : 934 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_6e93384f8076d4fbf34967b550c44943 = L.polyline(
+                [[-2.567925, 140.702054], [-2.567419291, 140.7003479]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_6e93384f8076d4fbf34967b550c44943.bindTooltip(
+                `<div>
+                     Uker 640.0 ↔ TXX8 : 197 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_be85e294c404db6a154f294a56f6aaed = L.polyline(
+                [[-2.567925, 140.702054], [-2.565102816, 140.7098541]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_be85e294c404db6a154f294a56f6aaed.bindTooltip(
+                `<div>
+                     Uker 640.0 ↔ TLGT : 921 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_7775b0293543d56a46ce9e03343039b8 = L.polyline(
+                [[-2.54000909483908, 140.705214312036], [-2.537524939, 140.7097321]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_7775b0293543d56a46ce9e03343039b8.bindTooltip(
+                `<div>
+                     Uker 3624.0 ↔ T9P8 : 572 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_3b5aa05d0e3803e4b369884289a8fbe9 = L.polyline(
+                [[-2.54000909483908, 140.705214312036], [-2.545913935, 140.7114868]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_3b5aa05d0e3803e4b369884289a8fbe9.bindTooltip(
+                `<div>
+                     Uker 3624.0 ↔ TUPF : 957 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_75f26da6c61864ac72b19bae198d3284 = L.polyline(
+                [[-2.59777, 140.63548], [-2.597180367, 140.6347198]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_75f26da6c61864ac72b19bae198d3284.bindTooltip(
+                `<div>
+                     Uker 4920.0 ↔ TZXA : 106 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_eab76988c7c0df6b4e778e656afaeaa3 = L.polyline(
+                [[-2.59777, 140.63548], [-2.597322226, 140.6296082]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_eab76988c7c0df6b4e778e656afaeaa3.bindTooltip(
+                `<div>
+                     Uker 4920.0 ↔ TSXB : 654 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_ad6e42a897ff2a41ae7187c6bd2e43f3 = L.polyline(
+                [[-2.522016, 140.724785], [-2.528899908, 140.7224579]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_ad6e42a897ff2a41ae7187c6bd2e43f3.bindTooltip(
+                `<div>
+                     Uker 4919.0 ↔ TJLC : 807 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_60689baeefc2463c340cd8a218d7e8d7 = L.polyline(
+                [[-2.565554, 140.513123], [-2.564833403, 140.5078735]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_60689baeefc2463c340cd8a218d7e8d7.bindTooltip(
+                `<div>
+                     Uker 7516.0 ↔ TC4M : 588 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_494ed099253dd6fa9eab206be701ee88 = L.polyline(
+                [[-2.565554, 140.513123], [-2.567324877, 140.521225]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_494ed099253dd6fa9eab206be701ee88.bindTooltip(
+                `<div>
+                     Uker 7516.0 ↔ TTYZ : 921 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_6b3c979875197ef630ff29b8267c79dc = L.polyline(
+                [[-2.565554, 140.513123], [-2.568110943, 140.5048676]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_6b3c979875197ef630ff29b8267c79dc.bindTooltip(
+                `<div>
+                     Uker 7516.0 ↔ T7IS : 960 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_6403ffe6c3db004491a3b0daea917e35 = L.polyline(
+                [[-2.565554, 140.513123], [-2.570197105, 140.5130157]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_6403ffe6c3db004491a3b0daea917e35.bindTooltip(
+                `<div>
+                     Uker 7516.0 ↔ TKGL : 516 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d4e32814ed48a5a277e6515c7f0ef2c2 = L.polyline(
+                [[-2.56466, 140.508325], [-2.564833403, 140.5078735]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_d4e32814ed48a5a277e6515c7f0ef2c2.bindTooltip(
+                `<div>
+                     Uker 1082.0 ↔ TC4M : 53 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_db3c67d6f2b5e059bc48a296662a877c = L.polyline(
+                [[-2.56466, 140.508325], [-2.568110943, 140.5048676]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_db3c67d6f2b5e059bc48a296662a877c.bindTooltip(
+                `<div>
+                     Uker 1082.0 ↔ T7IS : 542 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_414d46da4afe261834e00e200f511eed = L.polyline(
+                [[-2.56466, 140.508325], [-2.570197105, 140.5130157]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_414d46da4afe261834e00e200f511eed.bindTooltip(
+                `<div>
+                     Uker 1082.0 ↔ TKGL : 806 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_2e24a249c9c870cd3a6ac0e7c1defbb9 = L.polyline(
+                [[-2.56268, 140.715394], [-2.563880444, 140.7143555]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_2e24a249c9c870cd3a6ac0e7c1defbb9.bindTooltip(
+                `<div>
+                     Uker 4913.0 ↔ TVPB : 176 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_f48383203b91dd3c592edba5ea65c4a8 = L.polyline(
+                [[-2.56268, 140.715394], [-2.565102816, 140.7098541]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_87d77398365fb6170433c64e0ee4ad4d);
+        
+    
+            poly_line_f48383203b91dd3c592edba5ea65c4a8.bindTooltip(
+                `<div>
+                     Uker 4913.0 ↔ TLGT : 671 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

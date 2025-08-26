@@ -1,0 +1,2145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8a079f9c7d42f54c650dde52c8b03676 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8a079f9c7d42f54c650dde52c8b03676" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8a079f9c7d42f54c650dde52c8b03676 = L.map(
+                "map_8a079f9c7d42f54c650dde52c8b03676",
+                {
+                    center: [2.9066685163461536, 117.3493402923077],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 9,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_910895dd476f8995c305d3afaa69c779 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_910895dd476f8995c305d3afaa69c779.addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            var marker_cluster_e1f7451567eeedc56105ad135225ea7e = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_9392c57b8bbdd6cb6acd87bf762f2661 = L.marker(
+                [2.854830503, 117.3695984],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_f356957e96156814649df2aa1ed693e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cb7b222adf9218d4e8d5fd71d67a1780 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1d1cd1127d4c1a27f88fffc2fe3d275b = $(`<div id="html_1d1cd1127d4c1a27f88fffc2fe3d275b" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TDDB<br><b>Nama:</b> SENGKAWIT RAYA<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_cb7b222adf9218d4e8d5fd71d67a1780.setContent(html_1d1cd1127d4c1a27f88fffc2fe3d275b);
+            
+        
+
+        marker_9392c57b8bbdd6cb6acd87bf762f2661.bindPopup(popup_cb7b222adf9218d4e8d5fd71d67a1780)
+        ;
+
+        
+    
+    
+            marker_9392c57b8bbdd6cb6acd87bf762f2661.bindTooltip(
+                `<div>
+                     TDDB
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9392c57b8bbdd6cb6acd87bf762f2661.setIcon(icon_f356957e96156814649df2aa1ed693e7);
+            
+    
+            var marker_3a60f5cc879e7edf81f07870e15c7c52 = L.marker(
+                [2.846166611, 117.4174347],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_872f62b0041cbcc20eb74d7b46038661 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aad7310ea61d4ffa978d56af9cc5ff2d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c7219eece723a0544b12e986283ec940 = $(`<div id="html_c7219eece723a0544b12e986283ec940" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TWNT<br><b>Nama:</b> MANUNGGAL<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_aad7310ea61d4ffa978d56af9cc5ff2d.setContent(html_c7219eece723a0544b12e986283ec940);
+            
+        
+
+        marker_3a60f5cc879e7edf81f07870e15c7c52.bindPopup(popup_aad7310ea61d4ffa978d56af9cc5ff2d)
+        ;
+
+        
+    
+    
+            marker_3a60f5cc879e7edf81f07870e15c7c52.bindTooltip(
+                `<div>
+                     TWNT
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3a60f5cc879e7edf81f07870e15c7c52.setIcon(icon_872f62b0041cbcc20eb74d7b46038661);
+            
+    
+            var marker_9e9cdbf92c775b85945fed7b7a8acde8 = L.marker(
+                [2.852027655, 117.376915],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_9bed6b0532960293f41be925a61edfdf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7849e331d6c14706d5e213dfeb73517b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_95c7a8b2fc74ccb858f4b2d782cb4ee4 = $(`<div id="html_95c7a8b2fc74ccb858f4b2d782cb4ee4" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> T6W9<br><b>Nama:</b> SENGKAWIT UNIKAL<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_7849e331d6c14706d5e213dfeb73517b.setContent(html_95c7a8b2fc74ccb858f4b2d782cb4ee4);
+            
+        
+
+        marker_9e9cdbf92c775b85945fed7b7a8acde8.bindPopup(popup_7849e331d6c14706d5e213dfeb73517b)
+        ;
+
+        
+    
+    
+            marker_9e9cdbf92c775b85945fed7b7a8acde8.bindTooltip(
+                `<div>
+                     T6W9
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9e9cdbf92c775b85945fed7b7a8acde8.setIcon(icon_9bed6b0532960293f41be925a61edfdf);
+            
+    
+            var marker_0ea9491a67f14a403f35c2b5cf8e231b = L.marker(
+                [3.316488743, 117.0660324],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_8ff04b8c39f55c92a5d998b42b48eb26 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b4f03f5fda61a9a2c1eb485fa48d7795 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_86a0a0ee8a5a42bde517a11a6727ac13 = $(`<div id="html_86a0a0ee8a5a42bde517a11a6727ac13" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TBBQ<br><b>Nama:</b> AHMAD YANI SEKATAK<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_b4f03f5fda61a9a2c1eb485fa48d7795.setContent(html_86a0a0ee8a5a42bde517a11a6727ac13);
+            
+        
+
+        marker_0ea9491a67f14a403f35c2b5cf8e231b.bindPopup(popup_b4f03f5fda61a9a2c1eb485fa48d7795)
+        ;
+
+        
+    
+    
+            marker_0ea9491a67f14a403f35c2b5cf8e231b.bindTooltip(
+                `<div>
+                     TBBQ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0ea9491a67f14a403f35c2b5cf8e231b.setIcon(icon_8ff04b8c39f55c92a5d998b42b48eb26);
+            
+    
+            var marker_3a8302e72b643e36ad242e2a78d86094 = L.marker(
+                [2.829622269, 117.3808441],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_715c31f9a92f2ffb94f67be1eb02ac7b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b4079bc51fff94dac852a6d8ed810711 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3026303ef1b6c3507d52b4fb143cce0a = $(`<div id="html_3026303ef1b6c3507d52b4fb143cce0a" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> T7FK<br><b>Nama:</b> CENDRAWASIH<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_b4079bc51fff94dac852a6d8ed810711.setContent(html_3026303ef1b6c3507d52b4fb143cce0a);
+            
+        
+
+        marker_3a8302e72b643e36ad242e2a78d86094.bindPopup(popup_b4079bc51fff94dac852a6d8ed810711)
+        ;
+
+        
+    
+    
+            marker_3a8302e72b643e36ad242e2a78d86094.bindTooltip(
+                `<div>
+                     T7FK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3a8302e72b643e36ad242e2a78d86094.setIcon(icon_715c31f9a92f2ffb94f67be1eb02ac7b);
+            
+    
+            var marker_6d04df57a8db0dd985018e894a45fb3a = L.marker(
+                [2.830060959, 117.3583527],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_033ec1d3bf3fafed11d3f4f15720fbf0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_18fc14a58cf11af1f27de1f22821f318 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f153971f6bee2bd4f5e0cee65274f485 = $(`<div id="html_f153971f6bee2bd4f5e0cee65274f485" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TWFU<br><b>Nama:</b> KASIMUDDIN<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_18fc14a58cf11af1f27de1f22821f318.setContent(html_f153971f6bee2bd4f5e0cee65274f485);
+            
+        
+
+        marker_6d04df57a8db0dd985018e894a45fb3a.bindPopup(popup_18fc14a58cf11af1f27de1f22821f318)
+        ;
+
+        
+    
+    
+            marker_6d04df57a8db0dd985018e894a45fb3a.bindTooltip(
+                `<div>
+                     TWFU
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6d04df57a8db0dd985018e894a45fb3a.setIcon(icon_033ec1d3bf3fafed11d3f4f15720fbf0);
+            
+    
+            var marker_0b7c53bc158dc28cf869073750e69a6c = L.marker(
+                [2.616602659, 117.8055038],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_ac7f62a37b1a3ee3971090b4c6be2736 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_158737d5f93f523169226e725047cdad = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8e0990d139479c71d68ab56156eafb60 = $(`<div id="html_8e0990d139479c71d68ab56156eafb60" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TPMV<br><b>Nama:</b> TANAH KUNING 02<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_158737d5f93f523169226e725047cdad.setContent(html_8e0990d139479c71d68ab56156eafb60);
+            
+        
+
+        marker_0b7c53bc158dc28cf869073750e69a6c.bindPopup(popup_158737d5f93f523169226e725047cdad)
+        ;
+
+        
+    
+    
+            marker_0b7c53bc158dc28cf869073750e69a6c.bindTooltip(
+                `<div>
+                     TPMV
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0b7c53bc158dc28cf869073750e69a6c.setIcon(icon_ac7f62a37b1a3ee3971090b4c6be2736);
+            
+    
+            var marker_d19acaf73b84d5ebe16978eec3929536 = L.marker(
+                [2.847249985, 117.3738556],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_5d4e7a30d209c02725f003213e09be9c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b9f6adb6ebfbb25301a0b4f6cae1cb6c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_39a1ba8405e80fd59596c52ed5db6583 = $(`<div id="html_39a1ba8405e80fd59596c52ed5db6583" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> T7XQ<br><b>Nama:</b> DURIAN BULUNGAN<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_b9f6adb6ebfbb25301a0b4f6cae1cb6c.setContent(html_39a1ba8405e80fd59596c52ed5db6583);
+            
+        
+
+        marker_d19acaf73b84d5ebe16978eec3929536.bindPopup(popup_b9f6adb6ebfbb25301a0b4f6cae1cb6c)
+        ;
+
+        
+    
+    
+            marker_d19acaf73b84d5ebe16978eec3929536.bindTooltip(
+                `<div>
+                     T7XQ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d19acaf73b84d5ebe16978eec3929536.setIcon(icon_5d4e7a30d209c02725f003213e09be9c);
+            
+    
+            var marker_aa572f71118bfc4eb391208701d6a693 = L.marker(
+                [2.848699808, 117.3665314],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_dfdc2ae7aca28f4261d22ebbc3cf7117 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_60eef433dcafe859a991866fab5f5b2e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5c088777af993651ca46fd9243df4dd1 = $(`<div id="html_5c088777af993651ca46fd9243df4dd1" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TO71<br><b>Nama:</b> RAMBUTAN<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_60eef433dcafe859a991866fab5f5b2e.setContent(html_5c088777af993651ca46fd9243df4dd1);
+            
+        
+
+        marker_aa572f71118bfc4eb391208701d6a693.bindPopup(popup_60eef433dcafe859a991866fab5f5b2e)
+        ;
+
+        
+    
+    
+            marker_aa572f71118bfc4eb391208701d6a693.bindTooltip(
+                `<div>
+                     TO71
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_aa572f71118bfc4eb391208701d6a693.setIcon(icon_dfdc2ae7aca28f4261d22ebbc3cf7117);
+            
+    
+            var marker_331785736fe00ba896bc88db2d5d673b = L.marker(
+                [2.857438803, 117.3637543],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_7c7ab901d3c45e1cdbf32d025ce9c1e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1116e783dfdc0d74d1e15a7e18c02ac8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_8ef4d823de0643e4f7f0c49bea1ea584 = $(`<div id="html_8ef4d823de0643e4f7f0c49bea1ea584" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> T7HY<br><b>Nama:</b> SABANAR LAMA<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_1116e783dfdc0d74d1e15a7e18c02ac8.setContent(html_8ef4d823de0643e4f7f0c49bea1ea584);
+            
+        
+
+        marker_331785736fe00ba896bc88db2d5d673b.bindPopup(popup_1116e783dfdc0d74d1e15a7e18c02ac8)
+        ;
+
+        
+    
+    
+            marker_331785736fe00ba896bc88db2d5d673b.bindTooltip(
+                `<div>
+                     T7HY
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_331785736fe00ba896bc88db2d5d673b.setIcon(icon_7c7ab901d3c45e1cdbf32d025ce9c1e1);
+            
+    
+            var marker_4de5c2232cfac10e1fd7023a3097afda = L.marker(
+                [2.817602634, 117.4076843],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_a3cbd617aa156c6593764fd34647b3b8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_418063fdeb877b39faa7bcd77ff9d9bf = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_32b994c26ed30cceb6d2244934ac8c11 = $(`<div id="html_32b994c26ed30cceb6d2244934ac8c11" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> T4IT<br><b>Nama:</b> JELARAI RAYA<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_418063fdeb877b39faa7bcd77ff9d9bf.setContent(html_32b994c26ed30cceb6d2244934ac8c11);
+            
+        
+
+        marker_4de5c2232cfac10e1fd7023a3097afda.bindPopup(popup_418063fdeb877b39faa7bcd77ff9d9bf)
+        ;
+
+        
+    
+    
+            marker_4de5c2232cfac10e1fd7023a3097afda.bindTooltip(
+                `<div>
+                     T4IT
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4de5c2232cfac10e1fd7023a3097afda.setIcon(icon_a3cbd617aa156c6593764fd34647b3b8);
+            
+    
+            var marker_b5814f83fd70f37a37832d0677f2acb8 = L.marker(
+                [3.324635983, 117.0630264],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_ac90b409116471976a924d482766d824 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_407d58f1cd3d25aebe25b0e1341b52fc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_bab92535a970faf84588b289e7faa89d = $(`<div id="html_bab92535a970faf84588b289e7faa89d" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TK4M<br><b>Nama:</b> AHMAD YANI SEKATAK 05<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_407d58f1cd3d25aebe25b0e1341b52fc.setContent(html_bab92535a970faf84588b289e7faa89d);
+            
+        
+
+        marker_b5814f83fd70f37a37832d0677f2acb8.bindPopup(popup_407d58f1cd3d25aebe25b0e1341b52fc)
+        ;
+
+        
+    
+    
+            marker_b5814f83fd70f37a37832d0677f2acb8.bindTooltip(
+                `<div>
+                     TK4M
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b5814f83fd70f37a37832d0677f2acb8.setIcon(icon_ac90b409116471976a924d482766d824);
+            
+    
+            var marker_c92de1c3c34dde1761730f7ace2cd943 = L.marker(
+                [2.841491699, 117.3617096],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_6d8c2c9ec1da3041899a8c5c70d0a6c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_179217dfe4e3cba72dc1921f28bd02b5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d7cf5afb7c9917646a373e900fe3f3e9 = $(`<div id="html_d7cf5afb7c9917646a373e900fe3f3e9" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> T82W<br><b>Nama:</b> JENDRAL SUDIRMAN 28<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_179217dfe4e3cba72dc1921f28bd02b5.setContent(html_d7cf5afb7c9917646a373e900fe3f3e9);
+            
+        
+
+        marker_c92de1c3c34dde1761730f7ace2cd943.bindPopup(popup_179217dfe4e3cba72dc1921f28bd02b5)
+        ;
+
+        
+    
+    
+            marker_c92de1c3c34dde1761730f7ace2cd943.bindTooltip(
+                `<div>
+                     T82W
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c92de1c3c34dde1761730f7ace2cd943.setIcon(icon_6d8c2c9ec1da3041899a8c5c70d0a6c5);
+            
+    
+            var marker_76195a6d984a2cd8d3bf2b3e22b7ef28 = L.marker(
+                [2.838527679, 117.3925247],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_095f731e6700318a798c2a82af0c18c0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_19ae4aea5ea93365f07fc728a797be99 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_75d175dd19c1ec2912ad43330238fd48 = $(`<div id="html_75d175dd19c1ec2912ad43330238fd48" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TDJK<br><b>Nama:</b> JELARAY RAYA 03<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_19ae4aea5ea93365f07fc728a797be99.setContent(html_75d175dd19c1ec2912ad43330238fd48);
+            
+        
+
+        marker_76195a6d984a2cd8d3bf2b3e22b7ef28.bindPopup(popup_19ae4aea5ea93365f07fc728a797be99)
+        ;
+
+        
+    
+    
+            marker_76195a6d984a2cd8d3bf2b3e22b7ef28.bindTooltip(
+                `<div>
+                     TDJK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_76195a6d984a2cd8d3bf2b3e22b7ef28.setIcon(icon_095f731e6700318a798c2a82af0c18c0);
+            
+    
+            var marker_25d1c059e25d3fd263f91c06d6fe9739 = L.marker(
+                [3.084413767, 117.2142944],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_db01f1841ffa0b577082ccc18ecdcd0f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_47b682518b6bb39b5c511e431608505c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b99fe262db0b105cd076a6e416238e62 = $(`<div id="html_b99fe262db0b105cd076a6e416238e62" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TJVE<br><b>Nama:</b> AHMAD YANI 07<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_47b682518b6bb39b5c511e431608505c.setContent(html_b99fe262db0b105cd076a6e416238e62);
+            
+        
+
+        marker_25d1c059e25d3fd263f91c06d6fe9739.bindPopup(popup_47b682518b6bb39b5c511e431608505c)
+        ;
+
+        
+    
+    
+            marker_25d1c059e25d3fd263f91c06d6fe9739.bindTooltip(
+                `<div>
+                     TJVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_25d1c059e25d3fd263f91c06d6fe9739.setIcon(icon_db01f1841ffa0b577082ccc18ecdcd0f);
+            
+    
+            var marker_174a31422282ae7c5363bfe71e77432b = L.marker(
+                [2.840002775, 117.3648529],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_3bda2d0f31405975fd91d3df6e835f88 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0f4afbd8ab3ed8d96a8f5296596ac465 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5390ffde216060f658e7150b68ca4729 = $(`<div id="html_5390ffde216060f658e7150b68ca4729" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TD2Y<br><b>Nama:</b> SKIP 1 - BULUNGAN<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_0f4afbd8ab3ed8d96a8f5296596ac465.setContent(html_5390ffde216060f658e7150b68ca4729);
+            
+        
+
+        marker_174a31422282ae7c5363bfe71e77432b.bindPopup(popup_0f4afbd8ab3ed8d96a8f5296596ac465)
+        ;
+
+        
+    
+    
+            marker_174a31422282ae7c5363bfe71e77432b.bindTooltip(
+                `<div>
+                     TD2Y
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_174a31422282ae7c5363bfe71e77432b.setIcon(icon_3bda2d0f31405975fd91d3df6e835f88);
+            
+    
+            var marker_67ae1e92856cb9a00d7292ca3e41de6f = L.marker(
+                [2.871583462, 117.3767242],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_82c2ede7ec416ada3a11991ae7f3143b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_51a63c1072245d6f83fd53795d456c70 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5f3f35124da952853afffe1ef75b1075 = $(`<div id="html_5f3f35124da952853afffe1ef75b1075" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TYSC<br><b>Nama:</b> SABANAR LAMA KAYAN II<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_51a63c1072245d6f83fd53795d456c70.setContent(html_5f3f35124da952853afffe1ef75b1075);
+            
+        
+
+        marker_67ae1e92856cb9a00d7292ca3e41de6f.bindPopup(popup_51a63c1072245d6f83fd53795d456c70)
+        ;
+
+        
+    
+    
+            marker_67ae1e92856cb9a00d7292ca3e41de6f.bindTooltip(
+                `<div>
+                     TYSC
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_67ae1e92856cb9a00d7292ca3e41de6f.setIcon(icon_82c2ede7ec416ada3a11991ae7f3143b);
+            
+    
+            var marker_b765ed4187c16fbce42f60b464344584 = L.marker(
+                [2.807574987, 117.4083405],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_e49e6d01df82a2d78cf60efeb0c79728 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8ef2c828d1c0293d4401c544ae82c41b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b2cad128636d7f2a4d2b51bef0734397 = $(`<div id="html_b2cad128636d7f2a4d2b51bef0734397" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TYKY<br><b>Nama:</b> KILO 2<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_8ef2c828d1c0293d4401c544ae82c41b.setContent(html_b2cad128636d7f2a4d2b51bef0734397);
+            
+        
+
+        marker_b765ed4187c16fbce42f60b464344584.bindPopup(popup_8ef2c828d1c0293d4401c544ae82c41b)
+        ;
+
+        
+    
+    
+            marker_b765ed4187c16fbce42f60b464344584.bindTooltip(
+                `<div>
+                     TYKY
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b765ed4187c16fbce42f60b464344584.setIcon(icon_e49e6d01df82a2d78cf60efeb0c79728);
+            
+    
+            var marker_afc6a47c5187bc9719e297a9f64c7046 = L.marker(
+                [2.84845829, 117.3622284],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_804c67a79d4a434d94714c34b2712a63 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0f51ae1b69805d1523255e3c52ed98f1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d091cdc089538e3e24ed430e4d8b0e17 = $(`<div id="html_d091cdc089538e3e24ed430e4d8b0e17" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> T0KP<br><b>Nama:</b> BRIGJEND KATAMSO<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_0f51ae1b69805d1523255e3c52ed98f1.setContent(html_d091cdc089538e3e24ed430e4d8b0e17);
+            
+        
+
+        marker_afc6a47c5187bc9719e297a9f64c7046.bindPopup(popup_0f51ae1b69805d1523255e3c52ed98f1)
+        ;
+
+        
+    
+    
+            marker_afc6a47c5187bc9719e297a9f64c7046.bindTooltip(
+                `<div>
+                     T0KP
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_afc6a47c5187bc9719e297a9f64c7046.setIcon(icon_804c67a79d4a434d94714c34b2712a63);
+            
+    
+            var marker_048bcb01aaca60a23a951bdb57640bfd = L.marker(
+                [3.044141531, 117.2160034],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_8f4aeedfded38c0500a1dd6cc6c4d85f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_054263b29f6f52b6cf9f20c6b1dd357b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_66b445cc12e23be5601fcf73179709bf = $(`<div id="html_66b445cc12e23be5601fcf73179709bf" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TO6J<br><b>Nama:</b> KARANG AGUNG<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_054263b29f6f52b6cf9f20c6b1dd357b.setContent(html_66b445cc12e23be5601fcf73179709bf);
+            
+        
+
+        marker_048bcb01aaca60a23a951bdb57640bfd.bindPopup(popup_054263b29f6f52b6cf9f20c6b1dd357b)
+        ;
+
+        
+    
+    
+            marker_048bcb01aaca60a23a951bdb57640bfd.bindTooltip(
+                `<div>
+                     TO6J
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_048bcb01aaca60a23a951bdb57640bfd.setIcon(icon_8f4aeedfded38c0500a1dd6cc6c4d85f);
+            
+    
+            var marker_9b1e3d47611651bce7dc0aae88628f9d = L.marker(
+                [2.840844393, 117.4006882],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_12b4d950a5f721b9f53322540bd648e0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_927f2704cc6d2047df71361bbbe0dbc5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_88efa0c7e5e776aeb6454a84fb154023 = $(`<div id="html_88efa0c7e5e776aeb6454a84fb154023" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TWIK<br><b>Nama:</b> JELARAI<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_927f2704cc6d2047df71361bbbe0dbc5.setContent(html_88efa0c7e5e776aeb6454a84fb154023);
+            
+        
+
+        marker_9b1e3d47611651bce7dc0aae88628f9d.bindPopup(popup_927f2704cc6d2047df71361bbbe0dbc5)
+        ;
+
+        
+    
+    
+            marker_9b1e3d47611651bce7dc0aae88628f9d.bindTooltip(
+                `<div>
+                     TWIK
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9b1e3d47611651bce7dc0aae88628f9d.setIcon(icon_12b4d950a5f721b9f53322540bd648e0);
+            
+    
+            var marker_1c1be59dc4d0c91e6ec9772a77665510 = L.marker(
+                [2.844491482, 117.3699341],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_4789e327e2cc4336624cf2760fd9d6d1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6a99ac8bddcf569770045ff2e8ac3655 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_fb449f5d9194050e14177f81d3f29257 = $(`<div id="html_fb449f5d9194050e14177f81d3f29257" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TPUS<br><b>Nama:</b> KOLONEL SUTADJI II<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_6a99ac8bddcf569770045ff2e8ac3655.setContent(html_fb449f5d9194050e14177f81d3f29257);
+            
+        
+
+        marker_1c1be59dc4d0c91e6ec9772a77665510.bindPopup(popup_6a99ac8bddcf569770045ff2e8ac3655)
+        ;
+
+        
+    
+    
+            marker_1c1be59dc4d0c91e6ec9772a77665510.bindTooltip(
+                `<div>
+                     TPUS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1c1be59dc4d0c91e6ec9772a77665510.setIcon(icon_4789e327e2cc4336624cf2760fd9d6d1);
+            
+    
+            var marker_73a2dc3b124a5115505302c052991434 = L.marker(
+                [3.065777779, 117.2174683],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_9f5b7d9b4fd8bb68ed9e16a4e39aab1a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4616b387513cfba886fb223714c49221 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9eb6df592373cc528d86e15ed0fb0a6e = $(`<div id="html_9eb6df592373cc528d86e15ed0fb0a6e" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TF2I<br><b>Nama:</b> H.M ARDANS<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_4616b387513cfba886fb223714c49221.setContent(html_9eb6df592373cc528d86e15ed0fb0a6e);
+            
+        
+
+        marker_73a2dc3b124a5115505302c052991434.bindPopup(popup_4616b387513cfba886fb223714c49221)
+        ;
+
+        
+    
+    
+            marker_73a2dc3b124a5115505302c052991434.bindTooltip(
+                `<div>
+                     TF2I
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_73a2dc3b124a5115505302c052991434.setIcon(icon_9f5b7d9b4fd8bb68ed9e16a4e39aab1a);
+            
+    
+            var marker_f743f0ded51034c935ec2527cab0b3f6 = L.marker(
+                [2.783713818, 117.4474945],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_7e73feb071e6d1ffeb542431eb8549d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5816292e785286bba4e0d0fcc889d4e9 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_890d78638ec0718d5ef21318483ffdec = $(`<div id="html_890d78638ec0718d5ef21318483ffdec" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> T83N<br><b>Nama:</b> JELARA BUMI RAHAYU<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_5816292e785286bba4e0d0fcc889d4e9.setContent(html_890d78638ec0718d5ef21318483ffdec);
+            
+        
+
+        marker_f743f0ded51034c935ec2527cab0b3f6.bindPopup(popup_5816292e785286bba4e0d0fcc889d4e9)
+        ;
+
+        
+    
+    
+            marker_f743f0ded51034c935ec2527cab0b3f6.bindTooltip(
+                `<div>
+                     T83N
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f743f0ded51034c935ec2527cab0b3f6.setIcon(icon_7e73feb071e6d1ffeb542431eb8549d5);
+            
+    
+            var marker_5115690e26fcbf4b1a61f2cbbb458194 = L.marker(
+                [2.713783264, 117.5369568],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_a251332c21382a275da3eaa0c078a566 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b506285d4bfa7b49962cf14c1937ac9a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_55f0f62dbd98856002f00f14ea845fd1 = $(`<div id="html_55f0f62dbd98856002f00f14ea845fd1" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> T5PN<br><b>Nama:</b> POROS TANAH KUNING 02<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_b506285d4bfa7b49962cf14c1937ac9a.setContent(html_55f0f62dbd98856002f00f14ea845fd1);
+            
+        
+
+        marker_5115690e26fcbf4b1a61f2cbbb458194.bindPopup(popup_b506285d4bfa7b49962cf14c1937ac9a)
+        ;
+
+        
+    
+    
+            marker_5115690e26fcbf4b1a61f2cbbb458194.bindTooltip(
+                `<div>
+                     T5PN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5115690e26fcbf4b1a61f2cbbb458194.setIcon(icon_a251332c21382a275da3eaa0c078a566);
+            
+    
+            var marker_eb9a563cd6637fd78feebe5a5a003768 = L.marker(
+                [3.307149887, 117.0640945],
+                {
+}
+            ).addTo(marker_cluster_e1f7451567eeedc56105ad135225ea7e);
+        
+    
+            var icon_d0eb906d2f7500ce9581ee8e9db75fb3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "shopping-cart",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8078a18d7695b9273f5b698d65c81a5c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e0ba89eb678906e5e7f3ab07f53e6ecc = $(`<div id="html_e0ba89eb678906e5e7f3ab07f53e6ecc" style="width: 100.0%; height: 100.0%;"><b>KDTK:</b> TDD6<br><b>Nama:</b> AHMAD YANI KM 98<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_8078a18d7695b9273f5b698d65c81a5c.setContent(html_e0ba89eb678906e5e7f3ab07f53e6ecc);
+            
+        
+
+        marker_eb9a563cd6637fd78feebe5a5a003768.bindPopup(popup_8078a18d7695b9273f5b698d65c81a5c)
+        ;
+
+        
+    
+    
+            marker_eb9a563cd6637fd78feebe5a5a003768.bindTooltip(
+                `<div>
+                     TDD6
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_eb9a563cd6637fd78feebe5a5a003768.setIcon(icon_d0eb906d2f7500ce9581ee8e9db75fb3);
+            
+    
+            marker_cluster_e1f7451567eeedc56105ad135225ea7e.addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            var marker_b9c110f4e19de1bd61ffed715e4caf50 = L.marker(
+                [2.835044, 117.365788],
+                {
+}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            var icon_effd564777a3a92229cae14e6ad0548a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7ea2e6ad0a1914c91c7dd8ce5c9e5311 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7ee9049b9843913a6c63bbc5918af831 = $(`<div id="html_7ee9049b9843913a6c63bbc5918af831" style="width: 100.0%; height: 100.0%;"><b>Uker:</b> 306.0<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_7ea2e6ad0a1914c91c7dd8ce5c9e5311.setContent(html_7ee9049b9843913a6c63bbc5918af831);
+            
+        
+
+        marker_b9c110f4e19de1bd61ffed715e4caf50.bindPopup(popup_7ea2e6ad0a1914c91c7dd8ce5c9e5311)
+        ;
+
+        
+    
+    
+            marker_b9c110f4e19de1bd61ffed715e4caf50.bindTooltip(
+                `<div>
+                     Uker 306.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b9c110f4e19de1bd61ffed715e4caf50.setIcon(icon_effd564777a3a92229cae14e6ad0548a);
+            
+    
+            var marker_c35ef91a801d85fff4b5aa7610ae7d3b = L.marker(
+                [3.084297, 117.214306],
+                {
+}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            var icon_41aa43f316b44dfc538a8da26996a80e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6b406218d1c1dcdd03cb7586f5f5f25 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_cfe80432752e2ee9d26c516a2be9a370 = $(`<div id="html_cfe80432752e2ee9d26c516a2be9a370" style="width: 100.0%; height: 100.0%;"><b>Uker:</b> 7337.0<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_f6b406218d1c1dcdd03cb7586f5f5f25.setContent(html_cfe80432752e2ee9d26c516a2be9a370);
+            
+        
+
+        marker_c35ef91a801d85fff4b5aa7610ae7d3b.bindPopup(popup_f6b406218d1c1dcdd03cb7586f5f5f25)
+        ;
+
+        
+    
+    
+            marker_c35ef91a801d85fff4b5aa7610ae7d3b.bindTooltip(
+                `<div>
+                     Uker 7337.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c35ef91a801d85fff4b5aa7610ae7d3b.setIcon(icon_41aa43f316b44dfc538a8da26996a80e);
+            
+    
+            var marker_2f9138ddf7a4c281c04cf3c195797780 = L.marker(
+                [2.835648, 117.356865],
+                {
+}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            var icon_048eabd8556fd9055635ccd869eea4a8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_789304320ee63f4481d943668d3ee582 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4dc4b7a02951d28aae476f6da7185546 = $(`<div id="html_4dc4b7a02951d28aae476f6da7185546" style="width: 100.0%; height: 100.0%;"><b>Uker:</b> 4589.0<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_789304320ee63f4481d943668d3ee582.setContent(html_4dc4b7a02951d28aae476f6da7185546);
+            
+        
+
+        marker_2f9138ddf7a4c281c04cf3c195797780.bindPopup(popup_789304320ee63f4481d943668d3ee582)
+        ;
+
+        
+    
+    
+            marker_2f9138ddf7a4c281c04cf3c195797780.bindTooltip(
+                `<div>
+                     Uker 4589.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2f9138ddf7a4c281c04cf3c195797780.setIcon(icon_048eabd8556fd9055635ccd869eea4a8);
+            
+    
+            var marker_1ae2575e83468144745dcac6a64c4b8c = L.marker(
+                [2.27772, 118.09295],
+                {
+}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            var icon_4a7618acbc89794e8fa38726d887c3e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_443d4814a7e1dae318366b0d4f7e5f3e = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_76efbd9ed2a0eb7637a1856afed250ab = $(`<div id="html_76efbd9ed2a0eb7637a1856afed250ab" style="width: 100.0%; height: 100.0%;"><b>Uker:</b> 7901.0<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_443d4814a7e1dae318366b0d4f7e5f3e.setContent(html_76efbd9ed2a0eb7637a1856afed250ab);
+            
+        
+
+        marker_1ae2575e83468144745dcac6a64c4b8c.bindPopup(popup_443d4814a7e1dae318366b0d4f7e5f3e)
+        ;
+
+        
+    
+    
+            marker_1ae2575e83468144745dcac6a64c4b8c.bindTooltip(
+                `<div>
+                     Uker 7901.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1ae2575e83468144745dcac6a64c4b8c.setIcon(icon_4a7618acbc89794e8fa38726d887c3e7);
+            
+    
+            var marker_efcd7dab6d70adb4c4ce38e9236477f3 = L.marker(
+                [2.84538045650277, 117.367756852511],
+                {
+}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            var icon_6dec60f904558495db58deb8b8e77882 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c7560feba29a159773fa493dd290686a = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e752e24b7bc0a70d250dc80fab9fa4ae = $(`<div id="html_e752e24b7bc0a70d250dc80fab9fa4ae" style="width: 100.0%; height: 100.0%;"><b>Uker:</b> 3438.0<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_c7560feba29a159773fa493dd290686a.setContent(html_e752e24b7bc0a70d250dc80fab9fa4ae);
+            
+        
+
+        marker_efcd7dab6d70adb4c4ce38e9236477f3.bindPopup(popup_c7560feba29a159773fa493dd290686a)
+        ;
+
+        
+    
+    
+            marker_efcd7dab6d70adb4c4ce38e9236477f3.bindTooltip(
+                `<div>
+                     Uker 3438.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_efcd7dab6d70adb4c4ce38e9236477f3.setIcon(icon_6dec60f904558495db58deb8b8e77882);
+            
+    
+            var marker_71adb0bec86de2b93bd966d9ee64a1e5 = L.marker(
+                [-3.816813, 104.171685],
+                {
+}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            var icon_92d2f81fd0230e1c8b2e3239079e92fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "building",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e3c8530db6ad56c44867511807e09906 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c0a53e41cec05468847582678e39f964 = $(`<div id="html_c0a53e41cec05468847582678e39f964" style="width: 100.0%; height: 100.0%;"><b>Uker:</b> 8099.0<br><b>Kota:</b> BULUNGAN</div>`)[0];
+                popup_e3c8530db6ad56c44867511807e09906.setContent(html_c0a53e41cec05468847582678e39f964);
+            
+        
+
+        marker_71adb0bec86de2b93bd966d9ee64a1e5.bindPopup(popup_e3c8530db6ad56c44867511807e09906)
+        ;
+
+        
+    
+    
+            marker_71adb0bec86de2b93bd966d9ee64a1e5.bindTooltip(
+                `<div>
+                     Uker 8099.0
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_71adb0bec86de2b93bd966d9ee64a1e5.setIcon(icon_92d2f81fd0230e1c8b2e3239079e92fb);
+            
+    
+            var poly_line_045abfb796f9d8de49f78b196d4ed27b = L.polyline(
+                [[2.854830503, 117.3695984], [2.852027655, 117.376915]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_045abfb796f9d8de49f78b196d4ed27b.bindTooltip(
+                `<div>
+                     TDDB ↔ T6W9 : 870 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_b2410383c3c6010a549c1375ca4f1e51 = L.polyline(
+                [[2.854830503, 117.3695984], [2.847249985, 117.3738556]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_b2410383c3c6010a549c1375ca4f1e51.bindTooltip(
+                `<div>
+                     TDDB ↔ T7XQ : 966 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_986f38dd07d101b1717db300b49866bd = L.polyline(
+                [[2.854830503, 117.3695984], [2.848699808, 117.3665314]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_986f38dd07d101b1717db300b49866bd.bindTooltip(
+                `<div>
+                     TDDB ↔ TO71 : 762 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_3cd3f510dce915bfa203f88c087bff9b = L.polyline(
+                [[2.854830503, 117.3695984], [2.857438803, 117.3637543]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_3cd3f510dce915bfa203f88c087bff9b.bindTooltip(
+                `<div>
+                     TDDB ↔ T7HY : 710 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_891d182255554f718782b477cf1511f5 = L.polyline(
+                [[2.852027655, 117.376915], [2.847249985, 117.3738556]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_891d182255554f718782b477cf1511f5.bindTooltip(
+                `<div>
+                     T6W9 ↔ T7XQ : 630 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_56ce6f8fec84e01cb39f007cafb9b5a8 = L.polyline(
+                [[3.316488743, 117.0660324], [3.324635983, 117.0630264]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_56ce6f8fec84e01cb39f007cafb9b5a8.bindTooltip(
+                `<div>
+                     TBBQ ↔ TK4M : 965 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_659f494526d5240f62919b757db9146c = L.polyline(
+                [[2.847249985, 117.3738556], [2.848699808, 117.3665314]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_659f494526d5240f62919b757db9146c.bindTooltip(
+                `<div>
+                     T7XQ ↔ TO71 : 829 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d7f8a6b28651c6680a6fa6d023bc2164 = L.polyline(
+                [[2.847249985, 117.3738556], [2.844491482, 117.3699341]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_d7f8a6b28651c6680a6fa6d023bc2164.bindTooltip(
+                `<div>
+                     T7XQ ↔ TPUS : 532 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_b502863238371e4450f36d81c93f629d = L.polyline(
+                [[2.848699808, 117.3665314], [2.841491699, 117.3617096]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_b502863238371e4450f36d81c93f629d.bindTooltip(
+                `<div>
+                     TO71 ↔ T82W : 963 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_a8f559bca611495bc759b20034e0e3ae = L.polyline(
+                [[2.848699808, 117.3665314], [2.840002775, 117.3648529]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_a8f559bca611495bc759b20034e0e3ae.bindTooltip(
+                `<div>
+                     TO71 ↔ TD2Y : 984 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_4a13d7ba6bd189aa4d61bbe066b1ea47 = L.polyline(
+                [[2.848699808, 117.3665314], [2.84845829, 117.3622284]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_4a13d7ba6bd189aa4d61bbe066b1ea47.bindTooltip(
+                `<div>
+                     TO71 ↔ T0KP : 478 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_e75dc248b21b13d46c4fc03512980ae6 = L.polyline(
+                [[2.848699808, 117.3665314], [2.844491482, 117.3699341]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_e75dc248b21b13d46c4fc03512980ae6.bindTooltip(
+                `<div>
+                     TO71 ↔ TPUS : 601 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_90e6505de28a7e00104047e821b66fcd = L.polyline(
+                [[2.841491699, 117.3617096], [2.840002775, 117.3648529]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_90e6505de28a7e00104047e821b66fcd.bindTooltip(
+                `<div>
+                     T82W ↔ TD2Y : 386 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_7f5334dbaec18265a0e9cf13a2c42d53 = L.polyline(
+                [[2.841491699, 117.3617096], [2.84845829, 117.3622284]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_7f5334dbaec18265a0e9cf13a2c42d53.bindTooltip(
+                `<div>
+                     T82W ↔ T0KP : 776 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_4ed02485d3988db5894da44ca47c3d78 = L.polyline(
+                [[2.841491699, 117.3617096], [2.844491482, 117.3699341]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_4ed02485d3988db5894da44ca47c3d78.bindTooltip(
+                `<div>
+                     T82W ↔ TPUS : 972 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_3a2c9b7b02c219e16ee2ba5f640d0fd6 = L.polyline(
+                [[2.838527679, 117.3925247], [2.840844393, 117.4006882]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_3a2c9b7b02c219e16ee2ba5f640d0fd6.bindTooltip(
+                `<div>
+                     TDJK ↔ TWIK : 942 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_b6f4ca9570c8394546f89a416e7fedeb = L.polyline(
+                [[2.840002775, 117.3648529], [2.84845829, 117.3622284]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_b6f4ca9570c8394546f89a416e7fedeb.bindTooltip(
+                `<div>
+                     TD2Y ↔ T0KP : 984 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_3edfc831448e8d726d08118b763490cc = L.polyline(
+                [[2.840002775, 117.3648529], [2.844491482, 117.3699341]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_3edfc831448e8d726d08118b763490cc.bindTooltip(
+                `<div>
+                     TD2Y ↔ TPUS : 753 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_31c0ac342ba8e6de094e5ee3e7cde058 = L.polyline(
+                [[2.84845829, 117.3622284], [2.844491482, 117.3699341]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_31c0ac342ba8e6de094e5ee3e7cde058.bindTooltip(
+                `<div>
+                     T0KP ↔ TPUS : 962 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_12fb70c6856f9009a71cde22a5674a7d = L.polyline(
+                [[2.835044, 117.365788], [2.830060959, 117.3583527]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_12fb70c6856f9009a71cde22a5674a7d.bindTooltip(
+                `<div>
+                     Uker 306.0 ↔ TWFU : 994 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_a85376e0852cf610b2e627e568b08f73 = L.polyline(
+                [[2.835044, 117.365788], [2.841491699, 117.3617096]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_a85376e0852cf610b2e627e568b08f73.bindTooltip(
+                `<div>
+                     Uker 306.0 ↔ T82W : 848 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_5ff16032295d7ca15bb7f2891695e0d3 = L.polyline(
+                [[2.835044, 117.365788], [2.840002775, 117.3648529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_5ff16032295d7ca15bb7f2891695e0d3.bindTooltip(
+                `<div>
+                     Uker 306.0 ↔ TD2Y : 561 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_f8d75b2ed0f56e865fe5d23e60ed5071 = L.polyline(
+                [[3.084297, 117.214306], [3.084413767, 117.2142944]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_f8d75b2ed0f56e865fe5d23e60ed5071.bindTooltip(
+                `<div>
+                     Uker 7337.0 ↔ TJVE : 13 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_433ef5a1512ffe6e3fed05a2b114af56 = L.polyline(
+                [[2.835648, 117.356865], [2.830060959, 117.3583527]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_433ef5a1512ffe6e3fed05a2b114af56.bindTooltip(
+                `<div>
+                     Uker 4589.0 ↔ TWFU : 642 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d167bf3938094a3518fbf67103995d71 = L.polyline(
+                [[2.835648, 117.356865], [2.841491699, 117.3617096]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_d167bf3938094a3518fbf67103995d71.bindTooltip(
+                `<div>
+                     Uker 4589.0 ↔ T82W : 843 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_aa610d01c08373c771cd2e5f424ca0e5 = L.polyline(
+                [[2.84538045650277, 117.367756852511], [2.847249985, 117.3738556]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_aa610d01c08373c771cd2e5f424ca0e5.bindTooltip(
+                `<div>
+                     Uker 3438.0 ↔ T7XQ : 708 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_066149c32d09b67d01c46611bcdbb855 = L.polyline(
+                [[2.84538045650277, 117.367756852511], [2.848699808, 117.3665314]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_066149c32d09b67d01c46611bcdbb855.bindTooltip(
+                `<div>
+                     Uker 3438.0 ↔ TO71 : 393 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_7307fbedbb509d7bb74f3b90f35140a7 = L.polyline(
+                [[2.84538045650277, 117.367756852511], [2.841491699, 117.3617096]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_7307fbedbb509d7bb74f3b90f35140a7.bindTooltip(
+                `<div>
+                     Uker 3438.0 ↔ T82W : 798 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_fd708558da3b35cc40e9f2df498ff181 = L.polyline(
+                [[2.84538045650277, 117.367756852511], [2.840002775, 117.3648529]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_fd708558da3b35cc40e9f2df498ff181.bindTooltip(
+                `<div>
+                     Uker 3438.0 ↔ TD2Y : 679 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_53b3bd5377d200c784652b49b1af6d34 = L.polyline(
+                [[2.84538045650277, 117.367756852511], [2.84845829, 117.3622284]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_53b3bd5377d200c784652b49b1af6d34.bindTooltip(
+                `<div>
+                     Uker 3438.0 ↔ T0KP : 702 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_988878cc6ffa1bce5026d6c0da5bef3e = L.polyline(
+                [[2.84538045650277, 117.367756852511], [2.844491482, 117.3699341]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_8a079f9c7d42f54c650dde52c8b03676);
+        
+    
+            poly_line_988878cc6ffa1bce5026d6c0da5bef3e.bindTooltip(
+                `<div>
+                     Uker 3438.0 ↔ TPUS : 261 m
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
